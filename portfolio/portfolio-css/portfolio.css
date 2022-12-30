@@ -1,5 +1,5 @@
 @import url(./reset.css);
-
+@import url(./portfolio-font.css);
 #portfolio {
   display: flex;
   padding-top: 3rem;
@@ -10,7 +10,7 @@
 .portfolio-container {
   display: flex;
   justify-content: center;
-  margin: 0 3rem;
+  margin: 0 auto;
   padding: 0 2rem;
   flex-direction: column;
   align-items: center;
@@ -93,13 +93,6 @@
   color: white;
 }
 
-.portfolio-list-item > input[id="App"]:checked {
-}
-.portfolio-list-item input[id="Card"]:checked {
-}
-.portfolio-list-item input[id="Web"]:checked {
-}
-
 .portfolio-list-item:hover {
   background: #47b2e4;
   color: white;
@@ -120,6 +113,19 @@
 
 .portfolio-img-item {
   /* display: flex; */
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0;
+  transition: all 0.6s;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-img-hidden {
+  display: none;
   vertical-align: middle;
   box-sizing: border-box;
   width: 100%;
@@ -206,4 +212,49 @@
 
 .portfolio-img-font a span:hover {
   color: #47b2e4;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -3%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+.slide-in {
+  position: relative;
+  animation: fadeInUp 1s;
+}
+
+@media (max-width: 994px) {
+  .portfolio-img-container {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-img-row {
+    height: auto;
+    width: 50%;
+  }
+
+  .portfolio-img-hidden {
+    display: block;
+  }
+
+  .portfolio-off {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-img-row {
+    width: 80%;
+  }
+  .portfolio-img-container {
+    justify-content: center;
+  }
 }
