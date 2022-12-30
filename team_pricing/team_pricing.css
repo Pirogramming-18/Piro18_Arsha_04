@@ -1,5 +1,3 @@
-@import "reset.css";
-
 @media screen and (max-width: 56.25rem) {
   #team__container__second {
     flex-direction: column;
