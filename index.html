@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, maximum-scale=1.0, minimum-scale=1, user-scalable=yes,initial-scale=1.0"
+    />
+
+    <!-- header-link-start -->
+    <!-- header-css -->
+    <link rel="stylesheet" href="header/header-css/header.css">
+    <!-- header-link-end -->
+
+
+    <!-- portfolio-link-start -->
+        <!-- portfolio-css -->
+        <link rel="stylesheet" href="./portfolio/portfolio-css/portfolio.css" />
+        <!-- portfolio-section-title font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Nanum+Gothic:wght@800&display=swap"
+        rel="stylesheet"
+        />
+        <!-- portfolio-list font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Poppins:ital,wght@1,300&display=swap"
+        rel="stylesheet"
+        />
+        <!-- portfolio-img font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Open+Sans&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+        <!-- portfolio-더하기 기호 폰트 -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!-- portfolio-링크 기호 폰트 -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- portfolio-link-end -->
+
+    <title>Arsha</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <div class="header-logo">
+          <img src="./header/header-logo.png" alt="header-logo" />
+        </div>
+        <div class="header-preview-devices">
+          <input type="radio" name="header-devices" id="desktop" />
+          <label for="desktop">
+            <a href="#">  
+              <span class="material-symbols-outlined"> desktop_windows </span>
+            </a>
+          </label>
+          <input type="radio" name="header-devices" id="tablet" />
+          <label for="tablet">
+          <a href="#">
+            <span class="material-symbols-outlined"> tablet_mac </span>
+          </a>
+          </label>  
+          <input type="radio" name="header-devices" id="mobile">
+          <label for="mobile">
+          <a href="#"
+            ><span class="material-symbols-outlined"> phone_iphone </span></a
+          >
+          </label>
+        </div>
+        <div class="header-current-template">
+          <a href="#">
+            <span class="material-symbols-outlined">chevron_left</span>
+          </a>
+          <div>Arsha</div>
+          <a href="#">
+            <span class="material-symbols-outlined"> chevron_right </span>
+          </a>
+        </div>
+        <div class="header-navigate">
+          <div class="header-navigate-item">
+            <a href="#" class="header-export">
+              <span class="material-symbols-outlined"> ios_share </span>
+            </a>
+            <a href="#" class="header-download">
+              <span class="material-symbols-outlined"> download </span>
+              <span style="padding-left: 0.3rem">FREE DOWNLOAD</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav-fixed">
+        <div class="header-nav-container">
+          <div class="header-nav-left">
+            <div class="header-nav-item">
+              <a href="#" class="header-logo-text"><h2>ARSHA</h2></a>
+            </div>
+          </div>
+          <div class="header-nav-extra">
+            <a href="#">
+            <span class="material-symbols-outlined"> menu </span>
+          </a>
+          </div>
+          <div class="header-nav-right">
+            <div class="header-nav-item">
+              <a href="#"><p>Home</p></a>
+            </div>
+            <div class="header-nav-item">
+              <a href="#"><p>About</p></a>
+            </div>
+            <div class="header-nav-item">
+              <a href="#"><p>Service</p></a>
+            </div>
+            <div class="header-nav-item">
+              <a href="#portfolio"><p>Portfolio</p></a>
+            </div>
+            <div class="header-nav-item">
+              <a href="#"><p>Team</p></a>
+            </div>
+            <div class="header-nav-item" id="header-dropdown">
+              <a href="#">
+                <p>Drop Down</p>
+                  <span class="material-symbols-outlined">
+                    keyboard_arrow_down
+                  </span>
+              </a>
+              <ul class="header-dropdown-menu">
+                <li><a href="#">Drop down 1</a></li>
+                <li style="position: relative" id="header-deep-dropdown">
+                  <a href="#">
+                    Deep Drop down 2
+                    <span class="material-symbols-outlined">
+                      chevron_right
+                    </span>
+                  </a>
+                  <ul class="header-deep-dropdown-menu">
+                    <li><a href="#">Deep Drop down 1</a></li>
+                    <li><a href="#">Deep Drop down 2</a></li>
+                    <li><a href="#">Deep Drop down 3</a></li>
+                    <li><a href="#">Deep Drop down 4</a></li>
+                    <li><a href="#">Deep Drop down 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Drop down 3</a></li>
+                <li><a href="#">Drop down 4</a></li>
+              </ul>
+            </div>
+            <div class="header-nav-item">
+              <a href="#"><p>Contact</p></a>
+            </div>
+            <div class="header-nav-item">
+              <a href="#"><p>Get Started</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="portfolio" class="slide-in">
+        <div class="portfolio-container">
+          <div class="portfolio-section-title">
+            <h2>PORTFOLIO</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+              aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+              quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+              fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+          <div class="portfolio-section-list">
+            <ul class="portfolio-list">
+              <li class="portfolio-list-item">
+                  <input type="radio" name="list-item" id="All" checked="check">
+                      <label for="All">All</label></li>
+              <li class="portfolio-list-item">
+                  <input type="radio" name="list-item" id="App">
+                      <label for="App">App</label>
+              </li>
+              <li class="portfolio-list-item">
+                  <input type="radio" name="list-item" id="Card">
+                  <label for="Card">Card</label>
+              </li>
+              <li class="portfolio-list-item">
+                  <input type="radio" name="list-item" id="Web">
+                  <label for="Web">Web</label>
+              </li>
+            </ul>
+          </div>
+          <div class="portfolio-section-img">
+            <div class="portfolio-img-container">
+                  <div class="portfolio-img-row">
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-1.jpg"
+                              alt="portfolio-1-img"
+                              class="portfolio-img"
+                              />                    
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>App 1</h4>
+                                  <p>App</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-6.jpg"
+                              alt="portfolio-6-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>App 3</h4>
+                                  <p>App</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                      </div>
+                      <div class="portfolio-img-item portfolio-img-hidden">
+                        <img
+                            src="./portfolio/portfolio-img/portfolio-3.jpg"
+                            alt="portfolio-3-img"
+                            class="portfolio-img"
+                        />
+                        <div class="portfolio-img-info">
+                            <div class="portfolio-info-left">
+                                <h4>App 3</h4>
+                                <p>App</p>
+                            </div>
+                            <div class="portfolio-info-right">   
+                                <div class="portfolio-img-font">
+                                    <a href="#">
+                                        <span class="material-symbols-outlined">add</span>
+                                    </a>
+                                    </div>
+                                    
+                                <div class="portfolio-img-font">
+                                    <a href="#" >
+                                        <span class="material-symbols-outlined">attachment</span>
+                                    </a> 
+                            </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-img-item portfolio-img-hidden">
+                      <img
+                          src="./portfolio/portfolio-img/portfolio-4.jpg"
+                          alt="portfolio-4-img"
+                          class="portfolio-img"
+                      />
+                      <div class="portfolio-img-info">
+                          <div class="portfolio-info-left">
+                              <h4>App 3</h4>
+                              <p>App</p>
+                          </div>
+                          <div class="portfolio-info-right">   
+                              <div class="portfolio-img-font">
+                                  <a href="#">
+                                      <span class="material-symbols-outlined">add</span>
+                                  </a>
+                                  </div>
+                                  
+                              <div class="portfolio-img-font">
+                                  <a href="#" >
+                                      <span class="material-symbols-outlined">attachment</span>
+                                  </a> 
+                          </div>  
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="portfolio-img-row">
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-2.jpg"
+                              alt="portfolio-2-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>Web 3</h4>
+                                  <p>Web</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                      </div>
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-5.jpg"
+                              alt="portfolio-5-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>Web 2</h4>
+                                  <p>Web</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                      </div>
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-9.jpg"
+                              alt="portfolio-9-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>Web 3</h4>
+                                  <p>Web</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                      </div>
+                      <div class="portfolio-img-item portfolio-img-hidden">
+                        <img
+                            src="./portfolio/portfolio-img/portfolio-7.jpg"
+                            alt="portfolio-8-img"
+                            class="portfolio-img"
+                        />
+                        <div class="portfolio-img-info">
+                            <div class="portfolio-info-left">
+                                <h4>Card 1</h4>
+                                <p>Card</p>
+                            </div>
+                            <div class="portfolio-info-right">   
+                                <div class="portfolio-img-font">
+                                    <a href="#">
+                                        <span class="material-symbols-outlined">add</span>
+                                    </a>
+                                    </div>
+                                    
+                                <div class="portfolio-img-font">
+                                    <a href="#" >
+                                        <span class="material-symbols-outlined">attachment</span>
+                                    </a> 
+                            </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-img-item portfolio-img-hidden">
+                      <img
+                          src="./portfolio/portfolio-img/portfolio-8.jpg"
+                          alt="portfolio-8-img"
+                          class="portfolio-img"
+                      />
+                      <div class="portfolio-img-info">
+                          <div class="portfolio-info-left">
+                              <h4>Card 3</h4>
+                              <p>Card</p>
+                          </div>
+                          <div class="portfolio-info-right">   
+                              <div class="portfolio-img-font">
+                                  <a href="#">
+                                      <span class="material-symbols-outlined">add</span>
+                                  </a>
+                                  </div>
+                                  
+                              <div class="portfolio-img-font">
+                                  <a href="#" >
+                                      <span class="material-symbols-outlined">attachment</span>
+                                  </a> 
+                          </div>  
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="portfolio-img-row portfolio-off">
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-3.jpg"
+                              alt="portfolio-3-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>App 2</h4>
+                                  <p>App</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                      </div>
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-4.jpg"
+                              alt="portfolio-4-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>Card 2</h4>
+                                  <p>Card</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                          </div>
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-7.jpg"
+                              alt="portfolio-7-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>Card 1</h4>
+                                  <p>Card</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                          </div>
+                      <div class="portfolio-img-item">
+                          <img 
+                              src="./portfolio/portfolio-img/portfolio-8.jpg"
+                              alt="portfolio-8-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>Card 3</h4>
+                                  <p>Card</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="page-top-button">
+        <a href="#"><span class="material-symbols-outlined">
+          arrow_upward
+          </span></a>
+      </div>
+  </body>
+</html>
