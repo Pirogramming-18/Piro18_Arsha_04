@@ -1,0 +1,165 @@
+@import "./reset.css";
+
+html {
+  /* position: 0 0 0 0; */
+  /* justify-content: center; */
+}
+
+body {
+}
+
+.about1 {
+  display: inline-block;
+  position: absolute;
+  /* transform: translate(20%); */
+  /* right: 20%; */
+  padding: 2rem 0;
+  justify-content: center;
+  margin: 0 3rem;
+  /* position: 0 0 0 0; */
+  /* grid-template-rows: 3rem 5rem; */
+}
+
+#aboutul li {
+  list-style: none;
+}
+
+.about1_word {
+  font-size: 0.3rem;
+  display: flex;
+  justify-content: center;
+  /* position: absolute; */
+  /* justify-content: center; */
+}
+
+.about1_word div {
+  width: 25rem;
+  height: 17rem;
+  /* height: 50rem; */
+}
+
+#aboutus h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: #37517e;
+  text-align: center;
+}
+
+#aboutus h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 3rem;
+  height: 0.1rem;
+  background: #ddd;
+  bottom: 0.1rem;
+  left: 47%;
+  top: 15%;
+  justify-content: center;
+}
+
+#aboutus h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: #47b2e4;
+  width: 1.3rem;
+  height: 0.1rem;
+  align-self: center;
+  border-top: 1rem;
+  left: 48.75%;
+  top: 15%;
+}
+
+#about1_word_left p {
+  font-family: "Open Sans", sans-serif;
+  color: #444440;
+  padding: 1rem 0;
+}
+
+#about1_word_right p {
+  font-family: "Open Sans", sans-serif;
+  color: #444440;
+  padding: 1rem 0;
+}
+
+#learnmore {
+  color: rgb(117, 210, 253);
+  text-decoration: none;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  border: 0.1rem solid rgb(117, 210, 253);
+  text-align: center;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  border-radius: 0.3rem;
+  animation-delay: 0.8s;
+}
+
+#aboutul li i {
+  color: skyblue;
+  padding: 0.2rem 0;
+}
+
+.about2 {
+  background: #e1ebf4;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+}
+
+.about2_flexbox {
+  display: flex;
+  margin: 0 3rem;
+  /* justify-content: space-between; */
+}
+
+.about2_word {
+  width: 55rem;
+}
+
+.about2_word .div {
+  display: flex;
+}
+
+.about2_word_top div {
+}
+
+.about2_word_top #word_big {
+  color: rgb(33, 33, 162);
+}
+
+.about2_word_top #word_small {
+  color: rgb(179, 179, 199);
+  font-size: 0.1rem;
+}
+
+.about2_word_bottom {
+  flex-wrap: nowrap;
+}
+
+.about2_word_bottom ul li span {
+  display: inline;
+  color: #47b2e4;
+  font-weight: bold;
+}
+
+.about2_word_bottom ul li p {
+  font-size: 0.5rem;
+}
+
+.about2_word_bottom ul li i {
+  font-size: 0.5rem;
+}
+
+.about2_art {
+  display: flex;
+  justify-content: left;
+  /* width: 30rem; */
+}
+
+.about2_art img {
+  max-width: 70%;
+  vertical-align: bottom;
+}
