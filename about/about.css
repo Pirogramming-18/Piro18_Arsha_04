@@ -15,7 +15,6 @@ body {
 
 .about1 {
   display: inline-block;
-  position: absolute;
   padding: 2rem 0;
   justify-content: center;
   width: 100%;
@@ -32,7 +31,6 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  position: absolute;
   /* justify-content: center; */
 }
 
@@ -53,21 +51,21 @@ body {
 }
 
 #aboutus h2::before {
-  content: "";
   position: absolute;
+  content: "";
   display: block;
   width: 3rem;
   height: 0.1rem;
   background: #ddd;
   bottom: 0.1rem;
-  left: 47%;
-  top: 15%;
+  left: 47.3%;
+  top: 7%;
   justify-content: center;
 }
 
 #aboutus h2::after {
-  content: "";
   position: absolute;
+  content: "";
   display: block;
   background: #47b2e4;
   width: 1.3rem;
@@ -75,7 +73,7 @@ body {
   align-self: center;
   border-top: 1rem;
   left: 48.5%;
-  top: 15%;
+  top: 7%;
 }
 
 #about1_word_left p {

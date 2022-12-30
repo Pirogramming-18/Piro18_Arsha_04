@@ -1,5 +1,4 @@
 .about3 {
-  position: absolute;
   top: 40rem;
   display: flex;
   width: 100%;
@@ -13,10 +12,8 @@
   /* padding: 3rem 0; */
   background-color: white;
   display: flex;
-  padding-left: 2rem;
+  padding: 0 1rem;
   justify-content: center;
-
-  /* padding-left: 2rem; */
 }
 
 .about3_art img {
@@ -29,7 +26,7 @@
   /* display: flex; */
   background-color: white;
   padding: 3rem 3rem 3rem 0;
-  /* padding-left: 1rem; */
+  padding-left: 1rem;
   padding-right: 2rem;
   max-width: 25.5rem;
 }
@@ -101,6 +98,7 @@
   .about3 {
     top: 55rem;
     display: grid;
+    gap: 3rem;
   }
 
   .about3_art img {
