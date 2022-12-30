@@ -1,0 +1,266 @@
+@import "reset.css";
+
+@media screen and (max-width: 56.25rem) {
+  #team__container__second {
+    flex-direction: column;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 43.75rem) {
+  #team__container__first {
+    padding: 0 1rem 0.875rem 1rem !important;
+  }
+  #pricing__container__first {
+    padding: 0 1rem 1.875rem 1rem !important;
+  }
+  .team__face {
+    width: 40% !important;
+  }
+  .team__nameinfo__div {
+    align-items: flex-start !important;
+    padding-top: 2.3rem !important;
+  }
+}
+
+@media screen and (max-width: 34.625rem) {
+  #pricing__container__second {
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+  }
+}
+
+#pricing__container__first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 0 7rem 5.875rem 7rem;
+  gap: 1.25rem;
+}
+
+#team__container__first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 0 3rem 0.875rem 3rem;
+  gap: 1.25rem;
+}
+#TEAM__textcolor,
+#PRICING__textcolor {
+  color: #37517e;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#team__skybluebar,
+#pricing__skybluebar {
+  width: 2.5rem;
+  height: 0.2rem;
+  background-color: #47b2e4;
+}
+
+#team__container__first p {
+  color: #444444;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+#pricing__container__first p {
+  color: #444444;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.3rem;
+}
+
+#team__container__second {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 2rem 0 4rem;
+}
+
+.team__nameinfo__div {
+  display: flex;
+  padding: 4.3rem 4.875rem 2.3rem 1.875rem;
+  transition: all 2s ease-out;
+  transition-delay: 0.5s;
+}
+
+.team__nameinfo__div:hover {
+  transform: translateY(-1.25rem);
+}
+
+.team__nameinfo__div__right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 0 1.875rem;
+  width: 17rem;
+}
+
+.team__nameinfo__div__right h4 {
+  color: #37517e;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.team__nameinfo__div__right span {
+  color: #444;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.team__nameinfo__div__right p {
+  color: #444;
+  font-size: 0.85rem;
+}
+
+.team__face {
+  border-radius: 50%;
+  width: 10.25rem;
+  overflow: hidden;
+}
+
+.img__adopt {
+  width: 100%;
+  height: auto;
+}
+
+.team__nameinfo__bar {
+  background-color: #cbd6e9;
+  height: 0.08rem;
+  width: 3.125rem;
+}
+
+.team__nameinfo__sns {
+  display: flex;
+}
+
+.team__nameinfo__sns a:hover {
+  background-color: #47b2e4;
+  color: white;
+}
+
+.team__nameinfo__sns a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3.125rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  background: #eff2f8;
+}
+
+#pricing__container__second {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+#pricing__notcheck {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+#pricing__notcheck i {
+  color: #ccc;
+}
+.pricing__eachblock {
+  display: flex;
+  flex-direction: column;
+  width: 21.5rem;
+  height: 33.5rem;
+  padding: 3.3rem 2.5rem 2.85rem 2.5rem;
+}
+
+.pricing__eachblock__up h3 {
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+  font-size: 1.25rem;
+  color: #37517e;
+}
+
+.pricing__eachblock__up h4 {
+  font-size: 3rem;
+  color: #37517e;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.pricing__eachblock__up h4 sup {
+  font-size: 1.75rem;
+  position: relative;
+  top: -1.15rem;
+}
+
+.pricing__eachblock__up h4 span {
+  color: #47b2e4;
+  font-size: 18px;
+  position: relative;
+  top: -1.15rem;
+}
+
+.pricing__eachblock ul {
+  padding: 1.25rem 0;
+  list-style: none;
+  color: #999;
+  text-align: left;
+  line-height: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.pricing__eachblock ul i {
+  color: #28a745;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.pricing__eachblock ul li {
+  padding: 0.55rem 0 0.625rem 0px;
+  position: relative;
+}
+
+.get__start__button:hover {
+  color: white !important;
+  background-color: #47b2e4;
+}
+
+.get__start__button {
+  padding: 1em 2rem;
+  border-radius: 3.125rem;
+  color: #47b2e4 !important;
+  transition: none;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: 0.3s;
+  border: 1px solid #47b2e4;
+}
+
+#pricing__eachblock__second .get__start__button {
+  background-color: #47b2e4;
+  color: white !important;
+  transition: 0.3s;
+}
+
+#pricing__eachblock__second .get__start__button:hover {
+  background-color: #0d9efd;
+}
+
+#business__block {
+  border-top: 4px solid #fff;
+  border-radius: 5px;
+  border-top-color: #47b2e4;
+  padding-top: 3rem;
+}
+
+.get__start__button__container {
+  display: flex;
+}
