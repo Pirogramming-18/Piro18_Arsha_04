@@ -1,0 +1,148 @@
+@import "./about2.css";
+@import "./about3.css";
+
+html {
+  /* position: 0 0 0 0; */
+  /* justify-content: center; */
+}
+
+body {
+}
+
+.about-container {
+  position: relative;
+}
+
+.about1 {
+  display: inline-block;
+  padding: 2rem 0;
+  justify-content: center;
+  width: 100%;
+  /* position: 0 0 0 0; */
+  /* grid-template-rows: 3rem 5rem; */
+}
+
+#aboutul li {
+  list-style: none;
+}
+
+.about1_word {
+  font-size: 0.1rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* justify-content: center; */
+}
+
+.about1_word div {
+  width: 20rem;
+  height: 17rem;
+
+  /* height: 50rem; */
+}
+
+#aboutus h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: #37517e;
+  text-align: center;
+}
+
+#aboutus h2::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 0.1rem;
+  background: #ddd;
+  bottom: 0.1rem;
+  left: 47.3%;
+  top: 7%;
+  justify-content: center;
+}
+
+#aboutus h2::after {
+  position: absolute;
+  content: "";
+  display: block;
+  background: #47b2e4;
+  width: 1.3rem;
+  height: 0.1rem;
+  align-self: center;
+  border-top: 1rem;
+  left: 48.5%;
+  top: 7%;
+}
+
+#about1_word_left p {
+  font-family: "Open Sans", sans-serif;
+  color: #444440;
+  padding: 1rem 0;
+}
+
+#about1_word_right p {
+  font-family: "Open Sans", sans-serif;
+  color: #444440;
+  padding: 1rem 0;
+}
+
+#learnmore {
+  color: rgb(117, 210, 253);
+  text-decoration: none;
+  padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+  border: 0.1rem solid rgb(117, 210, 253);
+  text-align: center;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  border-radius: 0.3rem;
+  animation-delay: 0.8s;
+}
+
+#learnmore:hover {
+  background-color: rgb(117, 210, 253);
+  color: white;
+  transition-duration: 0.5s;
+}
+
+#aboutul li i {
+  color: skyblue;
+  padding: 0.2rem 0;
+}
+
+@media screen and (max-width: 35rem) {
+  .about1_word {
+    display: grid;
+  }
+
+  #about1_word_left {
+    max-height: 7rem;
+  }
+
+  #aboutus h2::after {
+    left: 48.5%;
+    top: 11%;
+  }
+
+  #aboutus h2::before {
+    left: 45%;
+    top: 11%;
+  }
+}
+
+@keyframes about1_anima {
+  from {
+    opacity: 0;
+    top: 2rem;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+.about1 {
+  animation-name: about1_anima;
+  animation-duration: 2s;
+}

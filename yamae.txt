@@ -1,0 +1,3 @@
+    <div class="home-container">
+        <img src="./hooooomeee.JPG" style="width: 100%">
+    </div>

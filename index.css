@@ -1,0 +1,29 @@
+footer {
+  background-color: #37517e;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 15rem;
+  color: #fff;
+}
+
+.footer-left {
+  display: flex;
+}
+
+.footer-left strong {
+  font-weight: bold;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.footer-right a {
+  color: #73c5eb;
+  text-decoration: none;
+}

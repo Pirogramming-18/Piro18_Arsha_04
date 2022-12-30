@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, maximum-scale=1.0, minimum-scale=1, user-scalable=yes,initial-scale=1.0"
+    />
+
+    <!-- header-link-start -->
+    <!-- header-css -->
+    <link rel="stylesheet" href="header/header-css/header.css">
+    <!-- header-link-end -->
+
+    <link rel="stylesheet" href="./reset.css">
+
+    <!-- portfolio-link-start -->
+        <!-- portfolio-css -->
+        <link rel="stylesheet" href="./portfolio/portfolio-css/portfolio.css" />
+        <!-- portfolio-section-title font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Nanum+Gothic:wght@800&display=swap"
+        rel="stylesheet"
+        />
+        <!-- portfolio-list font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Poppins:ital,wght@1,300&display=swap"
+        rel="stylesheet"
+        />
+        <!-- portfolio-img font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Open+Sans&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+        <!-- portfolio-더하기 기호 폰트 -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!-- portfolio-링크 기호 폰트 -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- portfolio-link-end -->
+
+    <!-- about 링크 -->
+    <link rel="stylesheet" href="./about/about.css">
+
+    <!-- team-pricing 링크 -->
+    <link rel="stylesheet" href="./team_pricing/team_pricing.css">
+    <!-- team-pricing font -->
+    <script
+        src="https://kit.fontawesome.com/6fbcf91afd.js"
+        crossorigin="anonymous"
+    ></script>
+
+    <!-- service/freq 링크 -->
+    <link rel="stylesheet" href="./service:freq/frequestions.css">
+    <link rel="stylesheet" href="./service:freq/services.css">
+    
+    <!-- contack 링크 -->
+    <link rel="stylesheet" href="./contact/contact.css">
+    <script src="https://kit.fontawesome.com/6fbcf91afd.js" crossorigin="anonymous"></script>
+
+    <title>Arsha</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <div class="header-logo">
+          <img src="./header/header-logo.png" alt="header-logo" />
+        </div>
+        <div class="header-preview-devices">
+          <input type="radio" name="header-devices" id="desktop" />
+          <label for="desktop">
+            <a href="#">  
+              <span class="material-symbols-outlined"> desktop_windows </span>
+            </a>
+          </label>
+          <input type="radio" name="header-devices" id="tablet" />
+          <label for="tablet">
+          <a href="#">
+            <span class="material-symbols-outlined"> tablet_mac </span>
+          </a>
+          </label>  
+          <input type="radio" name="header-devices" id="mobile">
+          <label for="mobile">
+          <a href="#"
+            ><span class="material-symbols-outlined"> phone_iphone </span></a
+          >
+          </label>
+        </div>
+        <div class="header-current-template">
+          <a href="#">
+            <span class="material-symbols-outlined">chevron_left</span>
+          </a>
+          <div>Arsha</div>
+          <a href="#">
+            <span class="material-symbols-outlined"> chevron_right </span>
+          </a>
+        </div>
+        <div class="header-navigate">
+          <div class="header-navigate-item">
+            <a href="#" class="header-export">
+              <span class="material-symbols-outlined"> ios_share </span>
+            </a>
+            <a href="#" class="header-download">
+              <span class="material-symbols-outlined"> download </span>
+              <span style="padding-left: 0.3rem">FREE DOWNLOAD</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav-fixed">
+        <div class="header-nav-container">
+          <div class="header-nav-left">
+            <div class="header-nav-item">
+              <a href="#" class="header-logo-text"><h2>ARSHA</h2></a>
+            </div>
+          </div>
+          <div class="header-nav-extra">
+            <a href="#">
+            <span class="material-symbols-outlined"> menu </span>
+          </a>
+          </div>
+          <div class="header-nav-right">
+            <div class="header-nav-item">
+              <a href="#"><p>Home</p></a>
+            </div>
+            <div class="header-nav-item">
+              <a href="#"><p>About</p></a>
+            </div>
+            <div class="header-nav-item">
+              <a href="#"><p>Service</p></a>
+            </div>
+            <div class="header-nav-item">
+              <a href="#portfolio"><p>Portfolio</p></a>
+            </div>
+            <div class="header-nav-item">
+              <a href="#"><p>Team</p></a>
+            </div>
+            <div class="header-nav-item" id="header-dropdown">
+              <a href="#">
+                <p>Drop Down</p>
+                  <span class="material-symbols-outlined">
+                    keyboard_arrow_down
+                  </span>
+              </a>
+              <ul class="header-dropdown-menu">
+                <li><a href="#">Drop down 1</a></li>
+                <li style="position: relative" id="header-deep-dropdown">
+                  <a href="#">
+                    Deep Drop down 2
+                    <span class="material-symbols-outlined">
+                      chevron_right
+                    </span>
+                  </a>
+                  <ul class="header-deep-dropdown-menu">
+                    <li><a href="#">Deep Drop down 1</a></li>
+                    <li><a href="#">Deep Drop down 2</a></li>
+                    <li><a href="#">Deep Drop down 3</a></li>
+                    <li><a href="#">Deep Drop down 4</a></li>
+                    <li><a href="#">Deep Drop down 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Drop down 3</a></li>
+                <li><a href="#">Drop down 4</a></li>
+              </ul>
+            </div>
+            <div class="header-nav-item">
+              <a href="#"><p>Contact</p></a>
+            </div>
+            <div class="header-nav-item">
+              <a href="#"><p>Get Started</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="about-container">
+    <div class="about1">
+        <div id="aboutus"><h2>ABOUT US</h2></div>
+        <div class="about1_word">
+          <div id="about1_word_left">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul id="aboutul">
+              <li>
+                <i class="fa-solid fa-check-double"></i>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat</i>
+              </li>
+              <li><i class="fa-solid fa-check-double"></i>
+                  Duis aute irure dolor in reprehenderit in voluptate velit</i
+                >
+              </li>
+              <li><i class="fa-solid fa-check-double"></i>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat</i
+                >
+              </li>
+            </ul>
+          </div>
+  
+          <div id="about1_word_right">
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore
+              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est
+              laborum.
+            </p>
+            <a id="learnmore" href="https://bootstrapmade.com/demo/templates/Arsha/#"
+            >Learn More</a
+          >
+          </div>
+          
+        </div>
+      </div>
+  
+    <div class="about2">
+      <div class="about2_flexbox">  
+        <div class="about2_word">
+          <div class="about2_word_top">
+            <div id="word_big">Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></div>
+            <div id="word_small"><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p></div>
+          </div>
+          <div class="about2_word_bottom">
+            <ul>
+              <li><span>01 </span><i class="fa-solid fa-chevron-down"></i><p> Non consectetur a erat nam at lectus urna duis? </p></li>
+              <li><span>02 </span><i class="fa-solid fa-chevron-down"></i><p> Feugiat scelerisque varius morbi enim nunc? </p></li>
+              <li><span>03 </span><i class="fa-solid fa-chevron-down"></i><p> Dolor sit amet consectetur adipiscing elit? </p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="about2_art"><img src="./about/about2_art.png" alt="" /></div>
+      </div>
+    </div>
+  
+  
+  
+      <div class="about3">
+        <div class="about3_art"><img src="./about/about3_art.png" alt="" /></div>
+        <div class="about3_word">
+          <div class="about3_word_top">
+            <div id="word_big"><strong>Voluptatem dignissimos provident quasi corporis voluptates</strong></div>
+            <div id="word_small"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+          </div>
+          <div class="about3_word_bottom">
+  
+            <div id="graphbox1">
+              <div class="namepercent"><div class="language_name">HTML</div><div class="language_percent">100%</div></div>
+              <div class="lan_graph" id="graph1"><div class="langraph" id="inner1"></div></div>
+            </div>
+  
+            <div id="graphbox2">
+              <div class="namepercent"><div class="language_name">CSS</div><div class="language_percent">90%</div></div>
+              <div class="lan_graph" id="graph2"><div class="langraph" id="inner2"></div></div>
+            </div>
+  
+            <div id="graphbox3">
+              <div class="namepercent"><div class="language_name">JAVASCRIPT</div><div class="language_percent">75%</div></div>
+              <div class="lan_graph" id="graph3"><div class="langraph" id="inner3"></div></div>
+            </div>
+  
+            <div id="graphbox4">
+              <div class="namepercent"><div class="language_name">PHOTOSHOP</div><div class="language_percent">55%</div></div>
+              <div class="lan_graph" id="graph4"><div class="langraph" id="inner4"></div></div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services-and-call">
+        <div class="services">
+            <div class="services-title">
+                <h2>    
+                    SERVICES
+                </h2>
+                <p>
+                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
+                    Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                </p>
+            </div>
+
+            <div class="services-box">
+                <div class="services-container">
+                <div class="services-box-one">
+                    <div class="services-box-icon1">
+                        <img src="./service:freq/service-1.JPG" alt="icon">
+                    </div>
+                    <h4>
+                        Lorem Ipsum
+                    </h4>
+                    <p>
+                        Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
+                    </p>
+                </div>
+
+                <div class="services-box-one box-icon-y">
+                    <div class="services-box-icon1">
+                        <img src="./service:freq/service-2.JPG" alt="icon">
+                    </div>
+                    <h4>
+                        Sed ut perspici
+                    </h4>
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                    </p>
+                </div>
+
+                <div class="services-box-one box-icon-x">
+                    <div class="services-box-icon1">
+                        <img src="./service:freq/service-3.JPG" alt="icon">
+                    </div>
+                    <h4>
+                        Magni Dolores
+                    </h4>
+                    <p>
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    </p>
+                </div>
+
+                <div class="services-box-one box-icon-x">
+                    <div class="services-box-icon1" >
+                        <img src="./service:freq/service-4.JPG" alt="icon">
+                    </div>
+                    <h4>
+                        Nemo Enim
+                    </h4>
+                    <p>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="call-to-action">
+                <div class="call-to-action-content">
+                    <div class="call-to-action-title">
+                        <h3>Call to Action</h3>
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    </div>
+                    <div class="call-to-action-btn">
+                        <span>
+                            Call to Action
+                        </span>
+                    </div>
+                </div>
+        </div>
+    </div>   
+    <section id="portfolio" class="slide-in">
+        <div class="portfolio-container">
+          <div class="portfolio-section-title">
+            <h2>PORTFOLIO</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+              aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+              quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+              fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+          <div class="portfolio-section-list">
+            <ul class="portfolio-list">
+              <li class="portfolio-list-item">
+                  <input type="radio" name="list-item" id="All" checked="check">
+                      <label for="All">All</label></li>
+              <li class="portfolio-list-item">
+                  <input type="radio" name="list-item" id="App">
+                      <label for="App">App</label>
+              </li>
+              <li class="portfolio-list-item">
+                  <input type="radio" name="list-item" id="Card">
+                  <label for="Card">Card</label>
+              </li>
+              <li class="portfolio-list-item">
+                  <input type="radio" name="list-item" id="Web">
+                  <label for="Web">Web</label>
+              </li>
+            </ul>
+          </div>
+          <div class="portfolio-section-img">
+            <div class="portfolio-img-container">
+                  <div class="portfolio-img-row">
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-1.jpg"
+                              alt="portfolio-1-img"
+                              class="portfolio-img"
+                              />                    
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>App 1</h4>
+                                  <p>App</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-6.jpg"
+                              alt="portfolio-6-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>App 3</h4>
+                                  <p>App</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                      </div>
+                      <div class="portfolio-img-item portfolio-img-hidden">
+                        <img
+                            src="./portfolio/portfolio-img/portfolio-3.jpg"
+                            alt="portfolio-3-img"
+                            class="portfolio-img"
+                        />
+                        <div class="portfolio-img-info">
+                            <div class="portfolio-info-left">
+                                <h4>App 3</h4>
+                                <p>App</p>
+                            </div>
+                            <div class="portfolio-info-right">   
+                                <div class="portfolio-img-font">
+                                    <a href="#">
+                                        <span class="material-symbols-outlined">add</span>
+                                    </a>
+                                    </div>
+                                    
+                                <div class="portfolio-img-font">
+                                    <a href="#" >
+                                        <span class="material-symbols-outlined">attachment</span>
+                                    </a> 
+                            </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-img-item portfolio-img-hidden">
+                      <img
+                          src="./portfolio/portfolio-img/portfolio-4.jpg"
+                          alt="portfolio-4-img"
+                          class="portfolio-img"
+                      />
+                      <div class="portfolio-img-info">
+                          <div class="portfolio-info-left">
+                              <h4>App 3</h4>
+                              <p>App</p>
+                          </div>
+                          <div class="portfolio-info-right">   
+                              <div class="portfolio-img-font">
+                                  <a href="#">
+                                      <span class="material-symbols-outlined">add</span>
+                                  </a>
+                                  </div>
+                                  
+                              <div class="portfolio-img-font">
+                                  <a href="#" >
+                                      <span class="material-symbols-outlined">attachment</span>
+                                  </a> 
+                          </div>  
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="portfolio-img-row">
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-2.jpg"
+                              alt="portfolio-2-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>Web 3</h4>
+                                  <p>Web</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                      </div>
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-5.jpg"
+                              alt="portfolio-5-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>Web 2</h4>
+                                  <p>Web</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                      </div>
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-9.jpg"
+                              alt="portfolio-9-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>Web 3</h4>
+                                  <p>Web</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                      </div>
+                      <div class="portfolio-img-item portfolio-img-hidden">
+                        <img
+                            src="./portfolio/portfolio-img/portfolio-7.jpg"
+                            alt="portfolio-8-img"
+                            class="portfolio-img"
+                        />
+                        <div class="portfolio-img-info">
+                            <div class="portfolio-info-left">
+                                <h4>Card 1</h4>
+                                <p>Card</p>
+                            </div>
+                            <div class="portfolio-info-right">   
+                                <div class="portfolio-img-font">
+                                    <a href="#">
+                                        <span class="material-symbols-outlined">add</span>
+                                    </a>
+                                    </div>
+                                    
+                                <div class="portfolio-img-font">
+                                    <a href="#" >
+                                        <span class="material-symbols-outlined">attachment</span>
+                                    </a> 
+                            </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-img-item portfolio-img-hidden">
+                      <img
+                          src="./portfolio/portfolio-img/portfolio-8.jpg"
+                          alt="portfolio-8-img"
+                          class="portfolio-img"
+                      />
+                      <div class="portfolio-img-info">
+                          <div class="portfolio-info-left">
+                              <h4>Card 3</h4>
+                              <p>Card</p>
+                          </div>
+                          <div class="portfolio-info-right">   
+                              <div class="portfolio-img-font">
+                                  <a href="#">
+                                      <span class="material-symbols-outlined">add</span>
+                                  </a>
+                                  </div>
+                                  
+                              <div class="portfolio-img-font">
+                                  <a href="#" >
+                                      <span class="material-symbols-outlined">attachment</span>
+                                  </a> 
+                          </div>  
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="portfolio-img-row portfolio-off">
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-3.jpg"
+                              alt="portfolio-3-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>App 2</h4>
+                                  <p>App</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                      </div>
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-4.jpg"
+                              alt="portfolio-4-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>Card 2</h4>
+                                  <p>Card</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                          </div>
+                      <div class="portfolio-img-item">
+                          <img
+                              src="./portfolio/portfolio-img/portfolio-7.jpg"
+                              alt="portfolio-7-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>Card 1</h4>
+                                  <p>Card</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                          </div>
+                      <div class="portfolio-img-item">
+                          <img 
+                              src="./portfolio/portfolio-img/portfolio-8.jpg"
+                              alt="portfolio-8-img"
+                              class="portfolio-img"
+                          />
+                          <div class="portfolio-img-info">
+                              <div class="portfolio-info-left">
+                                  <h4>Card 3</h4>
+                                  <p>Card</p>
+                              </div>
+                              <div class="portfolio-info-right">   
+                                  <div class="portfolio-img-font">
+                                      <a href="#">
+                                          <span class="material-symbols-outlined">add</span>
+                                      </a>
+                                      </div>
+                                      
+                                  <div class="portfolio-img-font">
+                                      <a href="#" >
+                                          <span class="material-symbols-outlined">attachment</span>
+                                      </a> 
+                              </div>  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="team__section">
+        <div id="team__container__first">
+          <div id="TEAM__textcolor">TEAM</div>
+          <div id="team__skybluebar"></div>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
+            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+            sit in iste officiis commodi quidem hic quas.
+          </p>
+        </div>
+        <div id="team__container__second">
+          <div class="team__nameinfo__div">
+            <div class="team__face">
+              <img src="./team_pricing/walter.jpg" class="img__adopt" alt="">
+            </div>
+            <div class="team__nameinfo__div__right">
+              <h4>Walter White</h4>
+              <span>Chief Executive Officer</span>
+              <span class="team__nameinfo__bar"></span>
+              <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+              <div class="team__nameinfo__sns">
+                <a href="">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="team__nameinfo__div">
+            <div class="team__face">
+              <img src="./team_pricing/sarah.jpg" class="img__adopt" alt="">
+            </div>
+            <div class="team__nameinfo__div__right">
+              <h4>Sarah Jhonson</h4>
+              <span>Product Manager</span>
+              <span class="team__nameinfo__bar"></span>
+              <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+              <div class="team__nameinfo__sns">
+                <a href="">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="team__nameinfo__div">
+            <div class="team__face">
+              <img src="./team_pricing/william.jpg" class="img__adopt" alt="">
+            </div>
+            <div class="team__nameinfo__div__right">
+              <h4>William Anderson</h4>
+              <span>CTO</span>
+              <span class="team__nameinfo__bar"></span>
+              <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+              <div class="team__nameinfo__sns">
+                <a href="">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="team__nameinfo__div">
+            <div class="team__face">
+              <img src="./team_pricing/amanda.jpg" class="img__adopt" alt="">
+            </div>
+            <div class="team__nameinfo__div__right">
+              <h4>Amanda Jepson</h4>
+              <span>Accountant</span>
+              <span class="team__nameinfo__bar"></span>
+              <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+              <div class="team__nameinfo__sns">
+                <a href="">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="pricing__section">
+        <div id="pricing__container__first">
+          <div id="PRICING__textcolor">PRICING</div>
+          <div id="pricing__skybluebar"></div>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+        </div>
+        <div id="pricing__container__second">
+          <div class="pricing__eachblock">
+            <div class="pricing__eachblock__up">
+              <h3>Free Plan</h3>
+              <h4>
+                <sup>$</sup>0<br>
+                <span>per month</span>
+              </h4>
+            </div>
+            <ul>
+              <li><i class="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
+              <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+              <li><i class="fa-solid fa-check"></i>Nulla at volutpat diam uteera</li>
+              <li id="pricing__notcheck"><i class="fa-solid fa-xmark"></i></i>Pharetra massa massa ultricies</li>
+              <li id="pricing__notcheck"><i class="fa-solid fa-xmark"></i></i>Massa ultricies mi quis hendrerit</li>
+            </ul>
+            <div class="get__start__button__container">
+              <a href="#" class="get__start__button">Get Started</a>
+            </div>
+          </div>
+          <div id="business__block" class="pricing__eachblock">
+            <div class="pricing__eachblock__up">
+              <h3>Business Plan</h3>
+              <h4>
+                <sup>$</sup>29<br>
+                <span>per month</span>
+              </h4>
+            </div>
+            <ul>
+              <li><i class="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
+              <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+              <li><i class="fa-solid fa-check"></i>Nulla at volutpat diam uteera</li>
+              <li><i class="fa-solid fa-check"></i>Pharetra massa massa ultricies</li>
+              <li><i class="fa-solid fa-check"></i>Massa ultricies mi quis hendrerit</li>
+            </ul>
+            <div id="pricing__eachblock__second" class="get__start__button__container">
+              <a href="#" class="get__start__button">Get Started</a>
+            </div>
+          </div>
+          <div class="pricing__eachblock">
+            <div class="pricing__eachblock__up">
+              <h3>Developer Plan</h3>
+              <h4>
+                <sup>$</sup>49<br>
+                <span>per month</span>
+              </h4>
+            </div>
+            <ul>
+              <li><i class="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
+              <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+              <li><i class="fa-solid fa-check"></i>Nulla at volutpat diam uteera</li>
+              <li><i class="fa-solid fa-check"></i>Pharetra massa massa ultricies</li>
+              <li><i class="fa-solid fa-check"></i>Massa ultricies mi quis hendrerit</li>
+            </ul>
+            <div class="get__start__button__container">
+              <a href="#" class="get__start__button">Get Started</a>
+            </div>
+          </div>
+        </section>
+      
+      <div class="freq-container">
+        <div class="freq-innercontainer">
+    <div class="freq-title">
+        <h2>    
+            FREQUENTLY ASKED QUESTIONS
+        </h2>
+        <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
+            Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+        </p>
+    </div>
+
+    <div class="freq-q">
+
+        <div class="freq-q-box-one1">
+
+            <div class="freq-q-box-first">
+
+                <div class="freq-q-box-icon1">
+                    <img src="./service:freq/freq-1.JPG" alt="q">
+                </div>
+
+                <p>
+                    Non consectetur a erat nam at lectus urna duis?
+                </p>
+
+            </div>
+
+            <span>
+                ⌵
+            </span>
+
+        </div>
+
+        <div class="freq-q-box-one">
+
+            <div class="freq-q-box-first">
+                <div class="freq-q-box-icon1">
+                    <img src="./service:freq/freq-1.JPG" alt="q">
+                </div>
+                <p>
+                    Feugiat scelerisque varius morbi enim nunc?
+                </p>
+            </div>
+
+            <span>
+                ⌵
+            </span>
+
+        </div>
+
+        <div class="freq-q-box-one">
+            <div class="freq-q-box-first">
+            <div class="freq-q-box-icon1">
+                <img src="./service:freq/freq-1.JPG" alt="q">
+            </div>
+            <p>
+                Dolor sit amet consectetur adipiscing elit?
+            </p>
+            </div>
+            <span>
+                ⌵
+            </span>
+        </div>
+
+        <div class="freq-q-box-one">
+            <div class="freq-q-box-first">
+            <div class="freq-q-box-icon1">
+                <img src="./service:freq/freq-1.JPG" alt="q">
+            </div>
+            <p>
+                Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+            </p>
+            </div>
+            <span>
+                ⌵
+            </span>
+        </div>
+
+        <div class="freq-q-box-one">
+            <div class="freq-q-box-first">
+            <div class="freq-q-box-icon1">
+                <img src="./service:freq/freq-1.JPG" alt="q">
+            </div>
+            <p>
+                Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+            </p>
+            </div>
+            <span>
+                ⌵
+            </span>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>contact</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="row">
+                <div class="info media-info">
+                    <div class="contact-info">
+                        <div class="address">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h4>Location: </h4>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                        <div class="email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>info@example.com</p>
+                        </div>
+                        <div class="phone">
+                            <i class="fa-solid fa-mobile"></i>
+                            <h4>Call:</h4>
+                            <p>+1 5589 55488 55s</p>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" 
+                                frameborder="0" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+    
+    
+                <div class="user-contact-info media-contact-info1 media-contact-info2">
+                    <form class="php-email-form">
+                        <div class="row">
+                            <div class="form-group form-row">
+                                <label>Your Name</label>
+                                <input type="text" class="input-control">
+                            </div>
+                            <div class="form-group form-row">
+                                <label>Your Email</label>
+                                <input type="text" class="input-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                                <label>Subject</label>
+                                <input type="text" class="subject-input input-control">
+                        </div>
+                        <div class="form-group">
+                                <label>Message</label>
+                                <textarea class="input-control" rows="10"></textarea>
+                        </div>
+                        <div class="message-submit">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h4>Join Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form>
+                            <input type="email" name="email">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-top-button">
+      <a href="#"><span class="material-symbols-outlined">
+        arrow_upward
+        </span></a>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          © Copyright&nbsp;
+          <strong>Arsha</strong>
+          . All Rights Reserved
+        </div>
+        <div class="footer-right">
+          Designed by&nbsp;
+          <a href="#">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
