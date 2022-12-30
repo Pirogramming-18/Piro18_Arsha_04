@@ -1,0 +1,185 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+.freq-container{
+    background-color: #f3f5fa;
+    padding: 60px 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.freq-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.freq-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+
+.freq-title h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.freq-title p{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #444444;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    width: 1116px
+}
+
+.freq-q{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.freq-q-box-one1{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content:space-between;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    margin-top: 0px;
+    border-radius: 4px;
+    position: relative;
+    box-sizing: border-box;
+    width: 916px;
+}
+
+.freq-q-box-one{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content:space-between;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    margin-top: 15px;
+    border-radius: 4px;
+    position: relative;
+    box-sizing: border-box;
+    width: 916px;
+}
+
+
+.freq-q-box-first{
+    display: flex;
+}
+
+
+
+.freq-q-box-icon1 img{
+    width: 30px;
+    height: 27px;
+}
+
+.freq-q-box-first p{
+    display: block;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 0 5px;
+    outline: none;
+    cursor: pointer;
+    color: #37517e;
+}
+
+.freq-q-box-first p:hover{
+
+    color:#47b2e4;
+}
+
+.freq-q-box-one span:hover{
+    color:#47b2e4;
+}
+
+.freq-q-box-one1 span:hover{
+    color:#47b2e4;
+}
+
+
+
+.freq-q-box-one span, .freq-q-box-one1 span{
+    display: block;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    padding: 0 5px;
+    outline: none;
+    cursor: pointer;
+    color: #37517e;
+    transition: 0.3s;
+
+}
+
+@media (max-width: 1200px) {
+    .freq-title p{
+      width: 936px;
+    }
+  }
+
+@media (max-width: 992px) {
+    .freq-title p{
+      width: 692px;
+    }
+    .freq-q-box-one{
+        width: 692px;
+    }
+    .freq-q-box-one1{
+        width: 692px;
+    }
+  }
+
+@media (max-width: 768px) {
+    .freq-title p{
+        width: 516px;
+      }
+    .freq-q-box-one{
+        width: 516px;
+    }
+    .freq-q-box-one1{
+        width: 516px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .freq-title p{
+      width: 100%;
+    }
+    .freq-q-box-one{
+        width: 100%;
+    }
+    .freq-q-box-one1{
+        width: 100%;
+    }
+  }
+
+  .freq-innercontainer{
+    margin-left: 12px;
+    margin-right: 12px;
+  }
