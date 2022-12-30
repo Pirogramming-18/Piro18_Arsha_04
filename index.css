@@ -1,13 +1,15 @@
 footer {
+  display: flex;
   background-color: #37517e;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin: 0 15rem;
+  margin: 0 2rem;
   color: #fff;
 }
 
@@ -24,6 +26,10 @@ footer {
 }
 
 .footer-right a {
-  color: #73c5eb;
+  color: #47b2e4;
   text-decoration: none;
+}
+
+.footer-right a :hover {
+  color: #73c5eb;
 }
