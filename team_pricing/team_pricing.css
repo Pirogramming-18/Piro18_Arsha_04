@@ -84,7 +84,7 @@
 
 .team__nameinfo__div {
   display: flex;
-  padding: 4.3rem 4.875rem 2.3rem 1.875rem;
+  padding: 4.3rem 0.575rem 1.3rem 0.5rem;
   transition: all 2s ease-out;
   transition-delay: 0.5s;
 }
@@ -120,7 +120,7 @@
 
 .team__face {
   border-radius: 50%;
-  width: 10.25rem;
+  width: 13.5rem;
   overflow: hidden;
 }
 
@@ -176,7 +176,7 @@
   flex-direction: column;
   width: 21.5rem;
   height: 33.5rem;
-  padding: 3.3rem 2.5rem 2.85rem 2.5rem;
+  padding: 3.3rem 0.5rem 2.85rem 0.5rem;
 }
 
 .pricing__eachblock__up h3 {
