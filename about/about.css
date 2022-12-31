@@ -19,6 +19,10 @@ html {
   /* grid-template-rows: 3rem 5rem; */
 }
 
+.about1 h2 {
+  font-family: "Jost", sans-serif;
+}
+
 #aboutul li {
   list-style: none;
 }

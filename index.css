@@ -33,3 +33,54 @@ footer {
 .footer-right a :hover {
   color: #73c5eb;
 }
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-top-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  padding-bottom: 1rem;
+}
+
+#footer-top-logo {
+  padding-top: 1rem;
+}
+
+#footer-top-logo p {
+  padding-top: 1rem;
+  padding-left: 5rem;
+}
+
+.footer-top-item li {
+  display: flex;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  color: #777;
+}
+
+.footer-top-item li span {
+  color: #47b2e4;
+}
+
+.footer-top-item p {
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+
+.footer-top h3 {
+  color: #37517e;
+  font-weight: bolder;
+  font-size: 2rem;
+  font-family: "Jost", sans-serif;
+}
+
+.footer-top h4 {
+  color: #37517e;
+  font-weight: bolder;
+  font-family: "Jost", sans-serif;
+}

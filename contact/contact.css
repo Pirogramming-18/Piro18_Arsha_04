@@ -65,6 +65,10 @@ section {
   display: block;
 }
 
+section h2 {
+  font-family: "Jost", sans-serif;
+}
+
 .container {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
